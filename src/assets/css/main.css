@@ -1,0 +1,35 @@
+.container{
+    text-align: center;
+    background-color: whitesmoke;
+    color: white;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: -webkit-center;
+}
+.container h2{
+    color: black
+}
+.article_tuple{
+    width: 1000px;
+    text-align: center;
+    padding: 50px;
+    min-height: 50px;
+    border: 2px solid black;
+
+    padding: 35px;
+    background: deepskyblue;
+    margin: 0px 20px 0px 20px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+.article_tuple a{
+    text-decoration: none;
+    color: black;
+}
+
+.search-text {
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+}
