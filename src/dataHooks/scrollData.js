@@ -31,7 +31,7 @@ export const ScrollData= (props)=>{
     }
 
     const fetchData =  (params) =>{
-        return fetch('http://hn.algolia.com/api/v1/search?'+ new URLSearchParams(params?params:{}), {method: 'GET'})
+        return fetch('https://hn.algolia.com/api/v1/search?'+ new URLSearchParams(params?params:{}), {method: 'GET'})
     } 
 
     return [data,setData,getDataApi,updateDataApi]
